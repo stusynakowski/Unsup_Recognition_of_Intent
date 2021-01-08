@@ -1,6 +1,3 @@
-# Unsup_Recognition_of_Intent
-Demos and functions based on the work "Adding Knowledge to Unsupervised Algorithms for the Recognition of Intent" published in the International Journal of Computer Vision
-
 **Unsupervised Recognition of Intent**
 
 This repository is based on the work published in the International Journal of Computer Vision &quot;Adding Knowledge to Unsupervised Algorithms for the Recognition of Intent&quot; (https://arxiv.org/abs/2011.06219) . This code is research code and is thus, a little messy.In short given the trajectory of the center of mass of an agent, this algorithm will infer whether segments of the trajectory to be either intentional or non-intentional. This is achieved by examining whether segments of trajectories exhibit self-propelled motion, external force motion, or a result of one of them. We show how this algorithm works across layers of abstraction, meaning if we remove features like the pose or appearance of an agent&#39;s trajectory, we can still infer between intentional and nonintentional movement.
